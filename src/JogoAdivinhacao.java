@@ -20,11 +20,11 @@ public class JogoAdivinhacao {
                 break;
             }else if( chute>numeroAleatorioGerado){
                 chances -=1;
-                System.out.println(" O numero do chute foi maior que o numero aleatorio gerado e  você tem mais :"  +chances +" chances " );
+                System.out.println(" O numero do chute foi maior que o numero aleatorio gerado. Você tem mais :"  +chances +" chances " );
 
             }else{
                 chances -=1;
-                System.out.println("  O numero aleatorio e maior que o numero do chute, e  você tem mais : " +chances +" chances .");
+                System.out.println("  O numero aleatorio e maior que o numero do chute. Você tem mais : " +chances +" chances .");
             }
         }
 
